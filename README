@@ -1,0 +1,7 @@
+This is a very course reader for the 7kaa data distributed on 7kfans.com.
+
+This extracts the sprites and the necessary offset information to animate those sprites based on the data formats described here: https://www.7kfans.com/wiki/index.php/ResourceFormats
+
+To use it, unzip a copy of the 7kaa data (the last I tried was the 2.13.2 .zip data from https://www.7kfans.com/wiki/index.php/Download) in this folder and make sure it's named '7kaa'.
+
+Run the script frames_read.py. Hopefully it'll create a folder 'processed' and fill it with sprites. It'll also create a 'processed.json' that has information about how all the sprites fit together.
